@@ -8,8 +8,6 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "-I",
-                "${workspaceFolder}\\openssl\\**.h",
                 "-L",
                 "C:\\msys64\\mingw64\\lib",
                 "-lssl",
